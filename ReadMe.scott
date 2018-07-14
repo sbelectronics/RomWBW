@@ -12,6 +12,14 @@ Configurations
    smb_z180_asci_vfd - RC2014 with Z180 CPU using built-in ASCI (better be 18.432 Mhz crystal!)
    smb_z180_sio_vfd - RC2104 with Z180 CPU using SIO/2 board, install separate crystal in SIO/2 board
 
+Scott's canonical port numbers
+
+   00 - vfd
+   48, 50, 51, 58 - floppy
+   70, 78 - bank select
+   74, 7C - bank enable
+   80, 81 - SIO/2 (aliases whole 8x range)
+
 8" floppy notes
 
 The 8inch drives as received were configured:
