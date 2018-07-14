@@ -53,7 +53,7 @@ SIO_PREINIT:
 
 		LD	A,$03
 		OUT	(SIOA_C),A
-		LD	A,$C1	; was $E1, switched to $C1 to disable CTS auto enable
+		LD	A,$C1	; was E1 switched to C1 to disable CTS auto enable
 		OUT	(SIOA_C),A
 
 		LD	A,$05
@@ -83,7 +83,7 @@ SIO_PREINIT:
 
 		LD	A,$03
 		OUT	(SIOB_C),A
-		LD	A,$C1  # was $E1, switched to $C1 to disable CTS auto enable
+		LD	A,$C1   ; was E1 switched to C1 to disable CTS auto enable
 		OUT	(SIOB_C),A
 
 		LD	A,$05
